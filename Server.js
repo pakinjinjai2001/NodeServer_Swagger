@@ -14,7 +14,7 @@ const main = async () => {
   app.use(express.json());
   app.use(express.urlencoded({ extended: false }));
 
-  const port = 3000;
+  const port = 5000;
 
   routes(app);
 
